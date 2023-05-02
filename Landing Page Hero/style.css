@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+
+.container .warp .text1 span {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: Inter;
+  padding-right: 3rem;
+  margin-right: 8rem;
+  color: #017771;
+}
+
+.container .warp .text2 p {
+  font-size: 20px;
+  padding-right: 5rem;
+  font-weight: 100;
+  font-family: arial;
+  color: #02b1a8;
+}
+
+.container .warp button {
+  margin-top: 3rem;
+  padding: 9px 30px;
+  font-size: 30px;
+  color: #101010;
+  border-radius: 3rem;
+  border-color: #101010;
+  background-color: #28fff4;
+  cursor: pointer;
+}
+
+.container .warp {
+  width: 480px;
+}
+
+.container .warp2 img {
+  max-width: 360px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
